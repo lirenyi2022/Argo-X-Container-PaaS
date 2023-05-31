@@ -3,8 +3,8 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "old-hill-4246"
-primary_region = "bos"
+app = "jianada-mengtelier"
+primary_region = "yul"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
