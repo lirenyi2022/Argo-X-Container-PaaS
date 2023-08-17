@@ -5,6 +5,13 @@ WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'f5d9d5fc-7bfc-4366-9fc2-a1f4338e58cc'}
 WEB_USERNAME=${WEB_USERNAME:-'lirentian'}
 WEB_PASSWORD=${WEB_PASSWORD:-'li790215'}
+NEZHA_SERVER=${NEZHA_SERVER:-'data.1862802.click'}
+NEZHA_PORT=${NEZHA_PORT:-'443'}
+NEZHA_KEY=${NEZHA_KEY:-'YUktN3Aiz2oKM5g9OS'}
+NEZHA_TLS=${NEZHA_TLS:-'1'}
+ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"506f062f61709904e2adfadecd1ec8ff","TunnelSecret":"gRC+nAd33D+WEAK1jAqt8uadzh8z7h/qdWG1srdwRZw=","TunnelID":"2a924ee3-a216-4c2d-886e-33ab233a54d1"}'}
+ARGO_DOMAIN=${ARGO_DOMAIN:-'j.1862802.click'}
+
 
 generate_config() {
   cat > config.json << EOF
